@@ -29,7 +29,7 @@ DevOps / Security / Web Engineer
 
 ```bash
 # 1) Clone the repo
-git clone git@github.com:Equinoxis/Instagram-Followers-Audit.git
+git clone https://github.com/Equinoxis/Instagram-Followers-Audit.git
 cd Instagram-Followers-Audit
 
 # 2) (Recommended) create a virtual environment
