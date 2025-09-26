@@ -1,0 +1,63 @@
+# --- Python cache/bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Virtual envs & tooling ---
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+pip-log.txt
+pip-wheel-metadata/
+.poetry/
+poetry.lock
+Pipfile.lock
+.pyenv/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pytest_cache/
+
+# --- Build / dist / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Project outputs (always generated to ./out/<username>/) ---
+out/
+
+# --- Logs & temp ---
+*.log
+logs/
+tmp/
+*.tmp
+
+# --- Local config & secrets ---
+# Instagram auth/session cookies (DO NOT COMMIT)
+cookies.json
+cookies-*.json
+*.secret.json
+.env
+.env.*
+*.env
+
+# --- Reports you might not want in Git (optional; remove if you want to commit them) ---
+# *.csv
+# snapshot.json
+# summary.md
+# Non_Abonne_En_Retour_De_*.txt
